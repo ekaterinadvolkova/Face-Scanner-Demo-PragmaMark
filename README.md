@@ -48,7 +48,7 @@ If not, you can explore each branch to see how the scanner evolves step by step.
 
 ## 💬 Questions?
 
-You can join the **[Discussions](https://github.com/YOUR_USERNAME/FaceScanner-Demo/discussions)** page to ask follow-up questions or share ideas.  
+You can join the Discussions page to ask follow-up questions or share ideas.  
 Or simply scan the QR code from my slides to get in touch directly.
 
 ---
