@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E25A34E02E8EF5B900ECFD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25A34C12E8EF5B800ECFD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25A34C82E8EF5B800ECFD1C;
+			remoteInfo = FaceScanner;
+		};
+		E25A34EA2E8EF5B900ECFD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25A34C12E8EF5B800ECFD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25A34C82E8EF5B800ECFD1C;
+			remoteInfo = FaceScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25A34C92E8EF5B800ECFD1C /* FaceScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25A34DF2E8EF5B900ECFD1C /* FaceScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25A34E92E8EF5B900ECFD1C /* FaceScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E25A34F12E8EF5B900ECFD1C /* Exceptions for "FaceScanner" folder in "FaceScanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = E25A34C82E8EF5B800ECFD1C /* FaceScanner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E25A34CB2E8EF5B800ECFD1C /* FaceScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E25A34F12E8EF5B900ECFD1C /* Exceptions for "FaceScanner" folder in "FaceScanner" target */,
+			);
+			path = FaceScanner;
+			sourceTree = "<group>";
+		};
+		E25A34E22E8EF5B900ECFD1C /* FaceScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FaceScannerTests;
+			sourceTree = "<group>";
+		};
+		E25A34EC2E8EF5B900ECFD1C /* FaceScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FaceScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25A34C62E8EF5B800ECFD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34DC2E8EF5B900ECFD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34E62E8EF5B900ECFD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25A34C02E8EF5B800ECFD1C = {
+			isa = PBXGroup;
+			children = (
+				E25A34CB2E8EF5B800ECFD1C /* FaceScanner */,
+				E25A34E22E8EF5B900ECFD1C /* FaceScannerTests */,
+				E25A34EC2E8EF5B900ECFD1C /* FaceScannerUITests */,
+				E25A34CA2E8EF5B800ECFD1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25A34CA2E8EF5B800ECFD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25A34C92E8EF5B800ECFD1C /* FaceScanner.app */,
+				E25A34DF2E8EF5B900ECFD1C /* FaceScannerTests.xctest */,
+				E25A34E92E8EF5B900ECFD1C /* FaceScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25A34C82E8EF5B800ECFD1C /* FaceScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25A34F22E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScanner" */;
+			buildPhases = (
+				E25A34C52E8EF5B800ECFD1C /* Sources */,
+				E25A34C62E8EF5B800ECFD1C /* Frameworks */,
+				E25A34C72E8EF5B800ECFD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E25A34CB2E8EF5B800ECFD1C /* FaceScanner */,
+			);
+			name = FaceScanner;
+			packageProductDependencies = (
+			);
+			productName = FaceScanner;
+			productReference = E25A34C92E8EF5B800ECFD1C /* FaceScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25A34DE2E8EF5B900ECFD1C /* FaceScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25A34F72E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScannerTests" */;
+			buildPhases = (
+				E25A34DB2E8EF5B900ECFD1C /* Sources */,
+				E25A34DC2E8EF5B900ECFD1C /* Frameworks */,
+				E25A34DD2E8EF5B900ECFD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25A34E12E8EF5B900ECFD1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E25A34E22E8EF5B900ECFD1C /* FaceScannerTests */,
+			);
+			name = FaceScannerTests;
+			packageProductDependencies = (
+			);
+			productName = FaceScannerTests;
+			productReference = E25A34DF2E8EF5B900ECFD1C /* FaceScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E25A34E82E8EF5B900ECFD1C /* FaceScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25A34FA2E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScannerUITests" */;
+			buildPhases = (
+				E25A34E52E8EF5B900ECFD1C /* Sources */,
+				E25A34E62E8EF5B900ECFD1C /* Frameworks */,
+				E25A34E72E8EF5B900ECFD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25A34EB2E8EF5B900ECFD1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E25A34EC2E8EF5B900ECFD1C /* FaceScannerUITests */,
+			);
+			name = FaceScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = FaceScannerUITests;
+			productReference = E25A34E92E8EF5B900ECFD1C /* FaceScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25A34C12E8EF5B800ECFD1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E25A34C82E8EF5B800ECFD1C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E25A34DE2E8EF5B900ECFD1C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E25A34C82E8EF5B800ECFD1C;
+					};
+					E25A34E82E8EF5B900ECFD1C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E25A34C82E8EF5B800ECFD1C;
+					};
+				};
+			};
+			buildConfigurationList = E25A34C42E8EF5B800ECFD1C /* Build configuration list for PBXProject "FaceScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25A34C02E8EF5B800ECFD1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E25A34CA2E8EF5B800ECFD1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25A34C82E8EF5B800ECFD1C /* FaceScanner */,
+				E25A34DE2E8EF5B900ECFD1C /* FaceScannerTests */,
+				E25A34E82E8EF5B900ECFD1C /* FaceScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25A34C72E8EF5B800ECFD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34DD2E8EF5B900ECFD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34E72E8EF5B900ECFD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25A34C52E8EF5B800ECFD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34DB2E8EF5B900ECFD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A34E52E8EF5B900ECFD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25A34E12E8EF5B900ECFD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25A34C82E8EF5B800ECFD1C /* FaceScanner */;
+			targetProxy = E25A34E02E8EF5B900ECFD1C /* PBXContainerItemProxy */;
+		};
+		E25A34EB2E8EF5B900ECFD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25A34C82E8EF5B800ECFD1C /* FaceScanner */;
+			targetProxy = E25A34EA2E8EF5B900ECFD1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E25A34F32E8EF5B900ECFD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PBTF8UV5WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceScanner/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25A34F42E8EF5B900ECFD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PBTF8UV5WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceScanner/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25A34F52E8EF5B900ECFD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E25A34F62E8EF5B900ECFD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25A34F82E8EF5B900ECFD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceScanner";
+			};
+			name = Debug;
+		};
+		E25A34F92E8EF5B900ECFD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceScanner";
+			};
+			name = Release;
+		};
+		E25A34FB2E8EF5B900ECFD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceScanner;
+			};
+			name = Debug;
+		};
+		E25A34FC2E8EF5B900ECFD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FaceScanner.FaceScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25A34C42E8EF5B800ECFD1C /* Build configuration list for PBXProject "FaceScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25A34F52E8EF5B900ECFD1C /* Debug */,
+				E25A34F62E8EF5B900ECFD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25A34F22E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25A34F32E8EF5B900ECFD1C /* Debug */,
+				E25A34F42E8EF5B900ECFD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25A34F72E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25A34F82E8EF5B900ECFD1C /* Debug */,
+				E25A34F92E8EF5B900ECFD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25A34FA2E8EF5B900ECFD1C /* Build configuration list for PBXNativeTarget "FaceScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25A34FB2E8EF5B900ECFD1C /* Debug */,
+				E25A34FC2E8EF5B900ECFD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25A34C12E8EF5B800ECFD1C /* Project object */;
+}
